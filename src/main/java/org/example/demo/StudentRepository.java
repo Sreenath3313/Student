@@ -1,0 +1,9 @@
+package org.example.demo;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface StudentRepository extends JpaRepository<Student, Integer> {
+    // You can add custom queries here if needed later
+}
