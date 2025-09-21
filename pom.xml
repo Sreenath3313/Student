@@ -13,7 +13,7 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>3.3.3</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <relativePath/>
     </parent>
 
     <properties>
@@ -27,13 +27,13 @@
             <artifactId>spring-boot-starter</artifactId>
         </dependency>
 
-        <!-- Web starter (for REST APIs, Tomcat, JSON) -->
+        <!-- Web starter -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
-        <!-- JPA / Hibernate for ORM -->
+        <!-- JPA / Hibernate -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
@@ -46,14 +46,7 @@
             <scope>runtime</scope>
         </dependency>
 
-        <!-- PostgreSQL JDBC Driver -->
-        <dependency>
-            <groupId>org.postgresql</groupId>
-            <artifactId>postgresql</artifactId>
-            <version>42.7.3</version>
-        </dependency>
-
-        <!-- Optional: testing support -->
+        <!-- Testing support -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
@@ -69,5 +62,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>
